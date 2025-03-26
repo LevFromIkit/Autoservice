@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/profile"
+            android:icon="@drawable/baseline_person_24"
+            android:title="my profil"
+            />
+        <item android:id="@+id/zapisi"
+            android:icon="@drawable/baseline_person_24"
+            android:title="my zapisi"
+            />
+        <item android:id="@+id/my_comments"
+            android:icon="@drawable/baseline_person_24"
+            android:title="my comments"
+            />
+    </group>
+
+    <item android:title="-------">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item android:id="@+id/profiles"
+                    android:icon="@drawable/baseline_person_24"
+                    android:title="my profil"
+                    />
+                <item android:id="@+id/zapisis"
+                    android:icon="@drawable/baseline_person_24"
+                    android:title="my zapisi"
+                    />
+                <item android:id="@+id/my_commentss"
+                    android:icon="@drawable/baseline_person_24"
+                    android:title="my comments"
+                    />
+            </group>
+        </menu>
+    </item>
+</menu>

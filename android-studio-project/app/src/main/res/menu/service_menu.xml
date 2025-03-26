@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/updateService"
+        android:icon="@drawable/baseline_update_24"
+        android:title="update"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/addService"
+        android:icon="@drawable/baseline_plus_one_24"
+        android:title="add"
+        app:showAsAction="always" />
+
+    <item android:title="двигатель"
+        android:id="@+id/engine"/>
+    <item android:title="подвеска"
+        android:id="@+id/hodova"/>
+    <item android:title="трансмиссия"
+        android:id="@+id/KPP"/>
+    <item android:title="плановое ТО"
+        android:id="@+id/TO"/>
+    <item android:title="диагностика"
+        android:id="@+id/diagnostik"/>
+</menu>
