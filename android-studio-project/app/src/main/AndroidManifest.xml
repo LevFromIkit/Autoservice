@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MDKP"
+        tools:targetApi="31">
+        <activity
+            android:name=".smenaAdapterForEngineer"
+            android:exported="false" />
+        <activity
+            android:name=".smenaForEngineer"
+            android:exported="false" />
+        <activity
+            android:name=".zapisViewAdapter"
+            android:exported="false" />
+        <activity
+            android:name=".timeZapisAdapter"
+            android:exported="false" />
+        <activity
+            android:name=".zapisAdapter"
+            android:exported="false" />
+        <activity
+            android:name=".serviceAdapter"
+            android:exported="false" />
+        <activity
+            android:name=".smensAdapter"
+            android:exported="false" />
+        <activity
+            android:name=".chatAdapter"
+            android:exported="false" />
+        <activity
+            android:name=".spisokVidovAdapter"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:exported="false"
+            android:label="@string/title_activity_spisok_vidov_adapter"
+            android:theme="@style/Theme.MDKP.Fullscreen" />
+        <activity
+            android:name=".userAdapter"
+            android:exported="false" />
+        <activity
+            android:name=".engineerProfile"
+            android:exported="false" />
+        <activity
+            android:name=".adminProfile"
+            android:exported="false" />
+        <activity
+            android:name=".userProfile"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".forgotPassword"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".registrating"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".autorizing"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+    </application>
+
+</manifest>

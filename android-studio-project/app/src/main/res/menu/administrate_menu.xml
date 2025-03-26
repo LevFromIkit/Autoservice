@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/updateUser"
+        android:icon="@drawable/baseline_update_24"
+        android:title="update"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/addUser"
+        android:icon="@drawable/baseline_plus_one_24"
+        android:title="add"
+        app:showAsAction="always" />
+
+    <item android:title="admin"
+        android:id="@+id/adminMenu"/>
+    <item android:title="engineer"
+        android:id="@+id/engineerMenu"/>
+    <item android:title="client"
+        android:id="@+id/clientMenu"/>
+</menu>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="выйти"
+        android:id="@+id/chat"
+        android:icon="@drawable/baseline_exit_to_app_24"/>
+    <item android:title="@string/zaivka"
+        android:id="@+id/zaivka"
+        android:icon="@drawable/baseline_access_time_24"/>
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/baseline_chat_24"
+        android:title="@string/reviews" />
+    <item android:title="профиль"
+        android:id="@+id/profile"
+        android:icon="@drawable/baseline_person_24"/>
+</menu>

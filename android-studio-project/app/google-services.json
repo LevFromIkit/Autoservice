@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "118046825067",
+    "project_id": "mdkp-c4cfd",
+    "storage_bucket": "mdkp-c4cfd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:118046825067:android:cacf8ef0acfe9030946f2e",
+        "android_client_info": {
+          "package_name": "com.example.mdkp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "118046825067-ih60666c6gnepca08hf3eekf85mk474v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCNGYHdwxVcBpPEa8ScDdsaE9DC_OxsQ6Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "118046825067-ih60666c6gnepca08hf3eekf85mk474v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
